@@ -50,7 +50,7 @@ const Message = ({ message, refetch }) => {
               +1
             </VoteButton>
             <Succeses>
-              {message.positive}/{message.negative + message.negative}
+              {message.positive}/{message.positive + message.negative}
             </Succeses>
             <VoteButton
               negative
