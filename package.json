@@ -7,8 +7,8 @@
     "dev": "next",
     "build": "next build",
     "start": "next start",
-    "now build": "next build",
-    "now start": "next start"
+    "now-build": "next build",
+    "now-start": "next start"
   },
   "dependencies": {
     "apollo-link-http": "^1.5.5",
