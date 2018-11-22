@@ -26,8 +26,8 @@ const CategoryList = () => (
   <Query query={ALL_CATEGORIES}>
     {({ data, loading, error, refetch }) => {
       if (error) return <p>Error loading categories.</p>;
-      if (!data) return <div>Loading...</div>;
-      console.log(data);
+      if (!data || !data.allCategories) return <div>Loading...</div>;
+      
       return (
         <Container>
           {data.allCategories.map(category => (
