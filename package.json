@@ -11,17 +11,24 @@
     "now-start": "next start"
   },
   "dependencies": {
-    "apollo-link-http": "^1.5.5",
+    "apollo-boost": "^0.4.2",
+    "apollo-link-context": "^1.0.17",
+    "apollo-link-http": "^1.5.14",
     "babel-plugin-emotion": "^9.2.11",
     "emotion": "^9.2.12",
     "emotion-server": "^9.2.12",
     "emotion-theming": "^9.2.9",
-    "graphql-tag": "^2.10.0",
-    "next": "^7.0.2",
-    "next-apollo": "^2.0.2",
-    "react": "^16.7.0-alpha.2",
-    "react-apollo": "^2.2.4",
-    "react-dom": "^16.7.0-alpha.2",
+    "graphql": "^14.3.1",
+    "graphql-tag": "^2.10.1",
+    "isomorphic-unfetch": "^3.0.0",
+    "next": "^8.1.0",
+    "next-apollo": "^2.1.0",
+    "react": "^16.8.6",
+    "react-apollo": "^2.5.6",
+    "react-dom": "^16.8.6",
     "react-emotion": "^9.2.12"
+  },
+  "devDependencies": {
+    "babel-plugin-add-module-exports": "^1.0.2"
   }
 }

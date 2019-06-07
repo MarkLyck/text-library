@@ -1,4 +1,11 @@
 {
   "version": 2,
-  "builds": [{ "src": "*/index.js", "use": "@now/node-server" }]
+  "name": "High status texts",
+  "builds": [{ "src": "next.config.js", "use": "@now/next" }],
+  "routes": [
+    {
+      "src": "^/(favicon.ico|manifest.json|robots.txt|humans.txt|sitemap.xml|sitemap.xsl)$",
+      "dest": "/static/$1"
+    }
+  ]
 }

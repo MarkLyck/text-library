@@ -20,7 +20,6 @@ export default class MyDocument extends Document {
     return (
       <html>
         <Head>
-          <title>High Status Texts</title>
           <link
             href="https://fonts.googleapis.com/css?family=Rubik:300,400,500,700"
             rel="stylesheet"
